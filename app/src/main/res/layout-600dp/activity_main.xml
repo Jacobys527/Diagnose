@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/main_activity_layout_padding"
+    android:layout_marginBottom="@dimen/main_activity_layout_tb_size"
+    >
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_name"
+        android:layout_width="match_parent"
+        android:theme="@style/input_text_view_theme"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_name"
+        android:textColorHint="@color/colorPrimary"
+        >
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="textPersonName"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_email"
+        android:layout_width="match_parent"
+        android:theme="@style/input_text_view_theme"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_email"
+        android:textColorHint="@color/colorPrimary"
+        >
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="textEmailAddress"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_age"
+        android:layout_width="match_parent"
+        android:theme="@style/input_text_view_theme"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_birth"
+        android:textColorHint="@color/colorPrimary"
+        >
+
+        <EditText
+            android:id="@+id/input_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:inputType="number"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/main_activity_gender_text_size"
+        android:text = "@string/main_activity_gender_text"
+        android:layout_marginTop="@dimen/main_activity_layout_tb_size"
+        />
+    <RadioGroup
+        android:layout_marginTop="@dimen/main_activity_layout_tb_size"
+        android:id="@+id/radio_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_male"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_female" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider_top"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/divider_layout"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/main_activity_layout_tb_size"
+        android:layout_marginBottom="@dimen/main_activity_layout_tb_size"
+        />
+
+    <CheckBox
+        android:id="@+id/input_migraine"
+        style="@style/CheckBoxStyle.Light"
+
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:text="@string/check_disorder" />
+
+    <CheckBox
+        android:id="@+id/input_drug"
+        style="@style/CheckBoxStyle.Light"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:text="@string/check_hallucinogenic_drugs" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_activity_layout_tb_size"
+        android:text="@string/submit_btn"
+        android:textColor="@color/colorWhite"
+        android:theme="@style/Submit_btn" />
+
+
+</LinearLayout>

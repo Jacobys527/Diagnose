@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Diagnosetodd</string>
+
+
+    // Strings used in Wizard Activity
+
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string name="material_icon_cloud_univ_first">&#xeb54;</string>
+    <string name="material_icon_cloud_univ_second">&#xeb5a;</string>
+    <string name="material_icon_cloud_univ_third">&#xeb55;</string>
+    <string name="material_icon_go_right">&#xe876;</string>
+
+
+    <string name="material_icon_point_full">&#xe869;</string>
+    <string name="material_icon_point_empty">&#xe868;</string>
+
+    // Strings used in Main Activity
+
+    <string name="main_activity_title">Diagnosis Data</string>
+    <string name="main_activity_gender_text">Gender</string>
+
+
+    <string name="input_name">Name</string>
+    <string name="input_email">Email</string>
+    <string name="input_birth">Age(15)</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+
+    <string name="check_disorder">You also have migraines </string>
+    <string name="check_hallucinogenic_drugs">Usage of hallucinogenic drugs</string>
+    <string name="submit_btn">Diagnose</string>
+
+
+    <string name="error_name_valid">Please enter Name</string>
+    <string name="error_email_valid">Please enter a valid E-mail</string>
+    <string name="error_age_valid">Please enter Age</string>
+</resources>
